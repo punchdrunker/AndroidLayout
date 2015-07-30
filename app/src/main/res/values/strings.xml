@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidLayout</string>
+
+    <string name="good_morning">おはよう</string>
+    <string name="good_evening">こんにちは</string>
+    <string name="good_night">こんばんは</string>
+    <string name="hello_world">こんにちは</string>
+    <string name="action_settings">Settings</string>
+</resources>
