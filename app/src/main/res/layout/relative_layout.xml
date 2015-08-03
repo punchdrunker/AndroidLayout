@@ -7,21 +7,21 @@
         android:id="@+id/button_a"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A" />
+        android:text="@string/label_a" />
     <Button
         android:id="@+id/button_b"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/button_a"
         android:layout_toRightOf="@+id/button_a"
-        android:text="B" />
+        android:text="@string/label_b" />
     <Button
         android:id="@+id/button_c"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/button_b"
         android:layout_below="@+id/button_b"
-        android:text="C" />
+        android:text="@string/label_c" />
     <Button
         android:id="@+id/button_d"
         android:layout_width="wrap_content"
@@ -29,12 +29,12 @@
         android:layout_alignBottom="@+id/button_c"
         android:layout_alignTop="@+id/button_b"
         android:layout_toRightOf="@+id/button_c"
-        android:text="D" />
+        android:text="@string/label_d" />
     <Button
         android:id="@+id/button_e"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignBaseline="@+id/button_d"
         android:layout_toRightOf="@+id/button_d"
-        android:text="E" />
+        android:text="@string/label_e" />
 </RelativeLayout>

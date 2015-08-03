@@ -1,7 +1,7 @@
 package punchdrunker.org.androidlayout;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -9,19 +9,19 @@ import android.widget.Button;
 import android.widget.TextView;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button jp_button = (Button) findViewById(R.id.my_button);
-        final TextView msg_text = (TextView) findViewById(R.id.my_text);
+        Button myButton = (Button) findViewById(R.id.my_button);
+        final TextView myText = (TextView) findViewById(R.id.my_text);
 
-        jp_button.setOnClickListener(new View.OnClickListener() {
+        myButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                msg_text.setText("さようなら");
+                myText.setText(getString(R.string.good_bye));
             }
         });
 
