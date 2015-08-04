@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <ImageView
+        android:id="@+id/w1"
+        android:layout_width="100dp"
+        android:layout_height="144dp"
+        android:layout_margin="3dp"
+        android:background="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/w2"
+        android:layout_width="100dp"
+        android:layout_height="144dp"
+        android:layout_below="@+id/w1"
+        android:layout_margin="3dp"
+        android:background="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/w2"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/w1"
+        android:background="#FF0000" />
+
+    <ImageView
+        android:id="@+id/b1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignRight="@+id/w2"
+        android:layout_below="@+id/w2"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="3dp"
+        android:background="#0000FF" />
+
+    <ImageView
+        android:id="@+id/w3"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/b1"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/b1"
+        android:background="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/y1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignTop="@+id/w3"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@+id/w3"
+        android:background="#FFFF00" />
+
+    <ImageView
+        android:id="@+id/w4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/y1"
+        android:layout_marginBottom="3dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/w3"
+        android:background="#FFFFFF" />
+</RelativeLayout>
